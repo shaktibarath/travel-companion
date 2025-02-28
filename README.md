@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Travel Companion App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A front-end web application for connecting travelers heading to South Asia (India, Pakistan, Bangladesh, Sri Lanka, and Nepal).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User profile creation with personal details
+- Comprehensive travel intake form
+- Browse and connect with travel companions
+- Responsive design for all devices
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React with TypeScript
+- Material UI for components
+- Formik for form handling
+- Yup for validation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `src/components/profile`: Components for user profile creation
+- `src/components/travelForm`: Components for the travel details form
+- `src/components/dashboard`: Components for the travel companion listing and matching
+- `src/components/common`: Shared components (Header, Footer, etc.)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## User Flow
 
-## Learn More
+1. User creates a profile (name, contact details, nationality)
+2. User enters travel details (departure, arrival, flight info, preferences)
+3. User can browse and connect with potential travel companions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Backend integration with user authentication
+- Real-time chat functionality
+- Advanced matching algorithm based on user preferences
+- User reviews and ratings system
+- Trip planning features
+
+## License
+
+MIT
