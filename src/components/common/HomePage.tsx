@@ -24,6 +24,9 @@ const HomePage = () => {
                 <RouterLink to="/dashboard" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
                   Find Companions
                 </RouterLink>
+                <RouterLink to="/about" className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">
+                  Learn More
+                </RouterLink>
               </div>
             </div>
             <div className="flex justify-center">

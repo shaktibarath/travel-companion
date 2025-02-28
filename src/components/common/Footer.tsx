@@ -59,9 +59,9 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-base text-gray-200 hover:text-white transition-colors duration-200">
+                <Link to="/about" className="text-base text-gray-200 hover:text-white transition-colors duration-200">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="text-base text-gray-200 hover:text-white transition-colors duration-200">

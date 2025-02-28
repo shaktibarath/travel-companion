@@ -10,6 +10,7 @@ import Dashboard from './components/dashboard/Dashboard';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import HomePage from './components/common/HomePage';
+import AboutUs from './components/common/AboutUs';
 
 // Theme configuration - keeping MUI theme for components that still use it
 const theme = createTheme({
@@ -61,6 +62,7 @@ function App() {
               <Route path="/profile" element={<ProfileCreation />} />
               <Route path="/travel-form" element={<TravelForm />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/about" element={<AboutUs />} />
             </Routes>
           </main>
           <Footer />

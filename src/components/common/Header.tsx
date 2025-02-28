@@ -30,6 +30,12 @@ const Header = () => {
               Home
             </RouterLink>
             <RouterLink 
+              to="/about" 
+              className="text-gray-700 hover:text-primary-main px-3 py-2 text-sm font-medium transition-colors duration-200"
+            >
+              About Us
+            </RouterLink>
+            <RouterLink 
               to="/profile" 
               className="text-gray-700 hover:text-primary-main px-3 py-2 text-sm font-medium transition-colors duration-200"
             >
@@ -77,6 +83,13 @@ const Header = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Home
+            </RouterLink>
+            <RouterLink
+              to="/about"
+              className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-primary-main hover:bg-gray-50 rounded-md"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              About Us
             </RouterLink>
             <RouterLink
               to="/profile"
