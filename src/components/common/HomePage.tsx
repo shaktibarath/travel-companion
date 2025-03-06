@@ -94,7 +94,7 @@ const HomePage = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { name: 'India', image: 'https://source.unsplash.com/random/300x200/?india,taj' },
+              { name: 'India', image: 'https://unsplash.com/photos/white-mosque-ZtCnQCC9zVo' },
               { name: 'Pakistan', image: 'https://source.unsplash.com/random/300x200/?pakistan,lahore' },
               { name: 'Bangladesh', image: 'https://source.unsplash.com/random/300x200/?bangladesh,dhaka' },
               { name: 'Sri Lanka', image: 'https://source.unsplash.com/random/300x200/?srilanka,colombo' },
