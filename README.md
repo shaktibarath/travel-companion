@@ -12,7 +12,7 @@ A front-end web application for connecting travelers heading to South Asia (Indi
 ## Tech Stack
 
 - React with TypeScript
-- Material UI for components
+- Tailwind UI for components
 - Formik for form handling
 - Yup for validation
 
